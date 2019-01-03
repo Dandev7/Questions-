@@ -12,8 +12,11 @@ import time
 time.sleep(1)
 print('I can do a trick')
 time.sleep(1)
-name = input('Would you like to see it?')
-if Yes: print("great")
+answer = input("Would you like to see it?")
+if answer == "Yes":
+  print('Great, lets do it.')
+elif answer == "No":
+  print('Fuck off then!!!.')
 
 # Store input numbers
 num1 = input('Enter first number: ')
@@ -23,4 +26,4 @@ num2 = input('Enter second number: ')
 sum = float(num1) + float(num2)
 
 # Display the sum
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum)
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
